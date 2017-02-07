@@ -1,0 +1,11 @@
+{
+  "name": "hackos",
+  "version": "1.0.0",
+  "description": "HackerRanks problem solvings",
+  "main": "appleAndOrange.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "svrakata",
+  "license": "ISC"
+}
