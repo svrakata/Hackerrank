@@ -5,10 +5,12 @@ const suite = new Benchmark.Suite();
 
 suite
     .add('1st function', () => {
-        functions.solve();
+        let x = 0;
+        x++;
     })
     .add('2nd function', () => {
-        functions.solve2();
+        let x = 0;
+        x += 1;
     })
     .on('cycle', (event) => {
         console.log(String(event.target));
